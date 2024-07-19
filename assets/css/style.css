@@ -1,0 +1,48 @@
+body{
+    background-color: black;
+}
+
+/* Estilo para el nav */
+.navbar {
+    position: absolute; /* Estilo para el navbar */
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: rgba(255, 255, 255, 0.5); /* Fondo blanco con 50% de transparencia */
+    color: #000; /* Color del texto del nav */
+    z-index: 1000; /* Asegura que el nav esté por encima del carrusel */
+    
+}
+
+/* Estilo para los enlaces dentro del nav */
+.navbar-nav .nav-link {
+    color: #000; /* Color del texto del enlace */
+}
+
+.navbar-nav .nav-link.active {
+    color: #007bff; /* Color del enlace activo (cambia si es necesario) */
+}
+
+/* Estilo para el carrusel */
+.carousel-inner {
+    position: relative;
+}
+
+/* Asegúrate de que el carrusel esté detrás del nav */
+.carousel {
+    position: relative;
+    z-index: 0; /* Asegura que el carrusel esté detrás del nav */
+}
+
+
+.logo img {
+    max-width: 20px; /* Ancho máximo de la imagen */
+    height: auto; /* Mantiene la relación de aspecto */
+    margin-bottom: 5px;
+}
+
+
+/* Definir el color blanco usando una clase adicional */
+.fa-white {
+    color: #ffffff; /* Color blanco para el ícono */
+}
