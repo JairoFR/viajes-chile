@@ -40,9 +40,22 @@ body{
     height: auto; /* Mantiene la relación de aspecto */
     margin-bottom: 5px;
 }
+.logo{
+    max-width: 20px; /* Ancho máximo de la imagen */
+    height: auto; /* Mantiene la relación de aspecto */
+    margin-bottom: 5px;
+}
 
 
 /* Definir el color blanco usando una clase adicional */
 .fa-white {
     color: #ffffff; /* Color blanco para el ícono */
+}
+
+@media only screen and (max-width: 767px)
+/* Media Queries para dispositivos móviles */
+{
+    #quienes_somos {
+    display: none;
+    }
 }
